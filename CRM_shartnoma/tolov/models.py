@@ -23,7 +23,7 @@ class Tolov(models.Model):
         ("November", "November"),
         ("December", "December"),
     )
-    shartnoma =models.ForeignKey(Shartnoma, on_delete=models.SET_NULL, null=True)
+    shartnoma = models.ForeignKey(Shartnoma, on_delete=models.SET_NULL, null=True)
     ustoz = models.ForeignKey(Ustoz, on_delete=models.SET_NULL, null=True)
     kurs = models.ForeignKey(Kurs, on_delete=models.SET_NULL, null=True)
     student = models.ForeignKey(Student, on_delete=models.SET_NULL, null=True)

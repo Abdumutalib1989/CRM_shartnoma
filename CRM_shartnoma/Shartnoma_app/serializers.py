@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from .models import *
+from .models import Kurs, Ustoz, Student, Shartnoma
 
 class KursSerializer(ModelSerializer):
     class Meta:
